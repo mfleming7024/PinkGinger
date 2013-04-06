@@ -70,33 +70,31 @@ body {
 header {
 	background-color: #a7a9ac;
 	width: 878px;
-	margin: 0 auto;	
-	margin-top: 25px;
-	overflow: hidden;
 	height: 110px;
+	margin: 25px auto 0 auto;	
+	overflow: hidden;
 }
 
 header ul {
 	margin-top: 0;
-	padding-top: 0;
-	padding-left: 380px;	
+	padding: 0 0 0 380px;	
 }
 
 header ul li {
-	margin-top: 0;
-	padding-top: 0;
 	float: left;
 	width: 100px;
+	margin-top: 0;
+	padding-top: 0;
 	text-align: center;
 }
 
 header ul li a {
 	margin-top: 0;
 	padding-top: 0;
-	text-decoration: none;	
 	font: 14px NexaLight;
 	letter-spacing: 1px;
 	color: #fff;
+	text-decoration: none;	
 }
 
 header > nav ul li:first-child {
@@ -117,46 +115,42 @@ header img {
 
 .main_cta {
 	clear: both;
-	padding-top: 25px;
-	background-image:url(../images/cta_border.png);
-	background-position:6px -75px;
-	overflow: hidden;
 	height: 478px;
 	margin-bottom: 27px;
+	padding-top: 25px;
+	background: url(../images/cta_border.png) 6px -75px;
+	overflow: hidden;
 }
 
 .main_cta h1 {
-	text-align: center;	
-	padding-top: 65px;
-	font: 72px NexaLight;
 	height: 45px;
+	padding-top: 65px;
+	text-align: center;	
+	font: 72px NexaLight;
 	letter-spacing: 3px;
 	overflow:hidden;
 }
 
 .main_cta .ribbon {
 	height: 93px;
-	background-image:url(../images/ribbon.png);	
-	background-position: 10px 0px;
-	background-repeat:no-repeat;
+	background:url(../images/ribbon.png) no-repeat 10px 0px;
 }
 
 .main_cta .ribbon h2 {
 	padding-top: 20px;
 	text-align: center;
-	font-family: Garamond;
+	font: 30px "Garamond";
 	color: #fff;
-	font-size: 30px;
 	letter-spacing: 3px;
 }
 
 
 footer {
 	background-color: #a7a9ac;
-	overflow: hidden;
+	margin: 0 auto;
 	width: 880px;
 	height: 35px;
-	margin: 0 auto;
+	overflow: hidden;
 }
 
 footer p {
@@ -167,10 +161,10 @@ footer p {
 }
 
 footer a {
-	text-decoration: none;
-	display: inline-block;
-	color: #fff;
 	width: 90px;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
 	text-align: center;
 }
 
@@ -186,23 +180,21 @@ footer a:hover {
 												/*			Other Pages			*/
 												
 .main_cta h3 {
-	margin-top: 40px;
-	background-image:url(../images/heading_ribbon.png);
-	background-repeat:no-repeat;
 	width: 250px;
 	height: 35px;
+	margin-top: 40px;
+	padding-top: 10px;
+	background: url(../images/heading_ribbon.png) no-repeat;
 	font: 20px NexaLight;
 	color: #fff;
-	text-align: right;
-	padding-top: 10px;
+	padding-left: 105px;
 	letter-spacing: 2px;
-	text-indent: 20px;
 }
 
 .main_cta .info_top {
 	width: 550px;
-	padding-top: 70px;
 	margin: 0 auto;
+	padding-top: 70px;
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	line-height: 25px;	
 }
@@ -214,7 +206,7 @@ footer a:hover {
 	line-height: 25px;		
 }
 
-													/* Services Styles */
+
 							
 .main_cta .info_top_center {
 	width: 505px;
@@ -235,19 +227,75 @@ footer a:hover {
 	padding: 0 20px;
 }
 
-.main_cta #left {
+.main_cta .column#left {
 	padding-left: 105px;	
 }
 
 .main_cta .column h2 {
+	padding-bottom: 7px;
 	font: 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	color: #fbcce8;	
 	letter-spacing: 2px;
-	padding-bottom: 7px;
 }
 
 .main_cta .column ul li {
 	padding-top: 0.5px;	
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+.main_cta .portfolio_column h4 {
+	font: bold 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+												/*		Porfolio Page		*/
+
+.main_cta .portfolio_column p {
+	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}	
+
+.main_cta .portfolio_column img {
+	width: 225px;
+	height: 85px;
+	padding: 5px 0;	
+}
+
+.main_cta .portfolio_column {
+	float: left; 
+	width: 225px;
+	padding: 0 13px;
+}
+
+.main_cta .portfolio_column#left {
+	padding-left: 115px;	
+}
+
+
+											/*		Contact Page	*/
 											
+.main_cta #contact_picture {
+	display: block;
+	width: 560px;			/*Change to 550?*/
+	height: 120px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.main_cta ul {
+	width: 550px; 
+	margin: 0 auto;
+	padding: 20px 0;
+	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main_cta ul li:first-child {
+	font-weight: bold;	
+}
+
+											/*		Home Page	*/
+											
+.main_cta img {
+	display: block;
+	width: 620px;
+	height: 155px;
+	margin: 0 auto;
+}
