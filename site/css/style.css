@@ -50,9 +50,10 @@ table {
 }
 
 												/*			Custom Font			*/
+												
 @font-face {
 	font-family: NexaBold;
-	src:url(fonts/NexaBold.otf);
+	src:url(../fonts/NexaBold.otf);
 }
 
 @font-face {
