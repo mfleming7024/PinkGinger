@@ -127,12 +127,13 @@ header img {
 	padding-top: 65px;
 	text-align: center;	
 	font: 72px NexaLight;
+	text-shadow: 2px 2px 2px #999;
 	letter-spacing: 3px;
 	overflow:hidden;
 }
 
 .main_cta .ribbon {
-	height: 93px;
+	height: 110px;
 	background:url(../images/ribbon.png) no-repeat 10px 0px;
 }
 
@@ -143,7 +144,13 @@ header img {
 	color: #fff;
 	letter-spacing: 3px;
 }
-
+											
+.main_cta img {
+	display: block;
+	width: 620px;
+	height: 155px;
+	margin: 0 auto;
+}
 
 footer {
 	background-color: #a7a9ac;
@@ -180,8 +187,8 @@ footer a:hover {
 												/*			Other Pages			*/
 												
 .main_cta h3 {
-	width: 250px;
-	height: 35px;
+	width: 142px;
+	height: 25px;
 	margin-top: 40px;
 	padding-top: 10px;
 	background: url(../images/heading_ribbon.png) no-repeat;
@@ -189,6 +196,7 @@ footer a:hover {
 	color: #fff;
 	padding-left: 105px;
 	letter-spacing: 2px;
+	box-shadow:2px 2px 3px #aaaaaa;
 }
 
 .main_cta .info_top {
@@ -205,8 +213,6 @@ footer a:hover {
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	line-height: 25px;		
 }
-
-
 							
 .main_cta .info_top_center {
 	width: 505px;
@@ -221,6 +227,8 @@ footer a:hover {
 	margin: 25px auto;
 }
 
+																			/*		Page Here		*/
+																			
 .main_cta .column {
 	float: left; 
 	width: 240px;
@@ -247,7 +255,7 @@ footer a:hover {
 	font: bold 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-												/*		Porfolio Page		*/
+																			/*		Porfolio Page		*/
 
 .main_cta .portfolio_column p {
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -270,11 +278,11 @@ footer a:hover {
 }
 
 
-											/*		Contact Page	*/
+																			/*		Contact Page	*/
 											
 .main_cta #contact_picture {
 	display: block;
-	width: 560px;			/*Change to 550?*/
+	width: 560px;
 	height: 120px;
 	margin: 0 auto;
 	padding-top: 20px;
@@ -283,19 +291,21 @@ footer a:hover {
 .main_cta ul {
 	width: 550px; 
 	margin: 0 auto;
+	padding: 0 0 20px 0;
+	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main_cta #address_info {
+	width: 550px; 
+	margin: 0 auto;
 	padding: 20px 0;
 	font: 12px "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.main_cta ul li:first-child {
-	font-weight: bold;	
+.main_cta #address_info li {
+	padding-top: 4px;	
 }
 
-											/*		Home Page	*/
-											
-.main_cta img {
-	display: block;
-	width: 620px;
-	height: 155px;
-	margin: 0 auto;
+.main_cta #address_info li:first-child {
+	font-weight: bold;	
 }
